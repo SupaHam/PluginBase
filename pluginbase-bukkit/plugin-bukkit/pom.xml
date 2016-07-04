@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+        <groupId>com.supaham.minecraft.pluginbase</groupId>
         <artifactId>PluginBase-Bukkit</artifactId>
         <version>1.5.2-SNAPSHOT</version>
     </parent>
@@ -11,35 +11,35 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Plugin</artifactId>
             <version>${plugin.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Permissions-Bukkit</artifactId>
             <version>${permissions.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Commands-Bukkit</artifactId>
             <version>${commands.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Minecraft-Link-Bukkit</artifactId>
             <version>${minecraft-link.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Messaging-Bukkit</artifactId>
             <version>${messaging.version}</version>
             <type>jar</type>
@@ -58,7 +58,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>JDBC-Spring</artifactId>
             <version>${jdbc-spring.version}</version>
             <scope>test</scope>
@@ -149,12 +149,12 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Plugin</include>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Permissions-Bukkit</include>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Commands-Bukkit</include>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Minecraft-Link-Bukkit</include>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Messaging-Bukkit</include>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Debug-Session</include>
+                                    <include>com.supaham.minecraft.pluginbase:Plugin</include>
+                                    <include>com.supaham.minecraft.pluginbase:Permissions-Bukkit</include>
+                                    <include>com.supaham.minecraft.pluginbase:Commands-Bukkit</include>
+                                    <include>com.supaham.minecraft.pluginbase:Minecraft-Link-Bukkit</include>
+                                    <include>com.supaham.minecraft.pluginbase:Messaging-Bukkit</include>
+                                    <include>com.supaham.minecraft.pluginbase:Debug-Session</include>
                                     <include>org.mcstats:metrics</include>
                                     <include>ninja.leaping.configurate:configurate-core</include>
                                     <include>ninja.leaping.configurate:configurate-hocon</include>

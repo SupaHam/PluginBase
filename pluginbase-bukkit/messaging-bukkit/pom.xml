@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+        <groupId>com.supaham.minecraft.pluginbase</groupId>
         <artifactId>PluginBase-Bukkit</artifactId>
         <version>1.5.2-SNAPSHOT</version>
     </parent>
@@ -11,7 +11,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Messaging</artifactId>
             <version>${messaging.version}</version>
             <type>jar</type>
@@ -67,7 +67,7 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Messaging</include>
+                                    <include>com.supaham.minecraft.pluginbase:Messaging</include>
                                 </includes>
                             </artifactSet>
                         </configuration>

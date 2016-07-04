@@ -4,6 +4,6 @@
  * This package contains the classes you can use to design a plugin that is not dependent on any particular Minecraft
  * server implementation.
  * <p/>
- * Part of com.dumptruckman.minecraft.pluginbase:Plugin.
+ * Part of com.supaham.minecraft.pluginbase:Plugin.
  */
 package pluginbase.plugin;

@@ -53,7 +53,7 @@ public class MyPerms {
 You can add this as a maven dependency with:
 ``` xml
 <dependency>
-    <groupId>com.dumptruckman.minecraft</groupId>
+    <groupId>com.supaham.minecraft</groupId>
     <artifactId>Permissions-Bukkit</artifactId>
     <version>1.5-SNAPSHOT</version>
     <type>jar</type>
@@ -76,12 +76,12 @@ And then shade/relocate it into your plugin with:
             <configuration>
                 <artifactSet>
                     <includes>
-                        <include>com.dumptruckman.minecraft:Permissions-Bukkit</include>
+                        <include>com.supaham.minecraft:Permissions-Bukkit</include>
                     </includes>
                 </artifactSet>
                 <relocations>
                     <relocation>
-                        <pattern>com.dumptruckman.minecraft.pluginbase</pattern>
+                        <pattern>com.supaham.minecraft.pluginbase</pattern>
                         <shadedPattern>your.namespace.here.pluginbase</shadedPattern>
                     </relocation>
                 </relocations>

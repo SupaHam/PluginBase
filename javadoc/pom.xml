@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+        <groupId>com.supaham.minecraft.pluginbase</groupId>
         <artifactId>PluginBase</artifactId>
         <version>1.5.2-SNAPSHOT</version>
     </parent>
@@ -17,161 +17,161 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Logging</artifactId>
             <version>${logging.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Messages</artifactId>
             <version>${messages.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Messaging</artifactId>
             <version>${messaging.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Messaging-Bukkit</artifactId>
             <version>${messaging.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Messaging-Sponge</artifactId>
             <version>${messaging.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Commands</artifactId>
             <version>${commands.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Commands-Bukkit</artifactId>
             <version>${commands.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Commands-Sponge</artifactId>
             <version>${commands.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Minecraft-Link</artifactId>
             <version>${minecraft-link.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Minecraft-Link-Bukkit</artifactId>
             <version>${minecraft-link.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Minecraft-Link-Sponge</artifactId>
             <version>${minecraft-link.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Permissions</artifactId>
             <version>${permissions.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Permissions-Bukkit</artifactId>
             <version>${permissions.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Permissions-Sponge</artifactId>
             <version>${permissions.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Properties</artifactId>
             <version>${properties.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Properties-Bukkit</artifactId>
             <version>${properties.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Utilities</artifactId>
             <version>${utilities.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>JDBC</artifactId>
             <version>${jdbc.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>JDBC-Spring</artifactId>
             <version>${jdbc-spring.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Plugin</artifactId>
             <version>${plugin.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Plugin-Bukkit</artifactId>
             <version>${plugin.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Plugin-Sponge</artifactId>
             <version>${plugin.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Serializable-Config</artifactId>
             <version>${serializable-config.version}</version>
             <type>jar</type>

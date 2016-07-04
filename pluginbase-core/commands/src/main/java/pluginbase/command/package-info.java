@@ -7,6 +7,6 @@
  * Specific server implementation modules may be available, ex: Commands-Bukkit.  These implementations will provide
  * a CommandProvider which should be all you need to get started.
  * <p/>
- * Provided by module com.dumptruckman.minecraft.pluginbase:Commands.
+ * Provided by module com.supaham.minecraft.pluginbase:Commands.
  */
 package pluginbase.command;

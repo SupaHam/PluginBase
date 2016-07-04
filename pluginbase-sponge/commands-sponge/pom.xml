@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+        <groupId>com.supaham.minecraft.pluginbase</groupId>
         <artifactId>PluginBase-Sponge</artifactId>
         <version>1.5.2-SNAPSHOT</version>
     </parent>
@@ -11,21 +11,21 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Commands</artifactId>
             <version>${commands.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Messaging-Sponge</artifactId>
             <version>${messaging.version}</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+            <groupId>com.supaham.minecraft.pluginbase</groupId>
             <artifactId>Minecraft-Link-Sponge</artifactId>
             <version>${minecraft-link.version}</version>
             <type>jar</type>
@@ -74,9 +74,9 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Commands</include>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Minecraft-Link-Sponge</include>
-                                    <include>com.dumptruckman.minecraft.pluginbase:Messaging-Sponge</include>
+                                    <include>com.supaham.minecraft.pluginbase:Commands</include>
+                                    <include>com.supaham.minecraft.pluginbase:Minecraft-Link-Sponge</include>
+                                    <include>com.supaham.minecraft.pluginbase:Messaging-Sponge</include>
                                 </includes>
                             </artifactSet>
                         </configuration>

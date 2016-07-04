@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>PluginBase</artifactId>
-        <groupId>com.dumptruckman.minecraft.pluginbase</groupId>
+        <groupId>com.supaham.minecraft.pluginbase</groupId>
         <version>1.5.2-SNAPSHOT</version>
     </parent>
     <artifactId>PluginBase-Sponge</artifactId>
