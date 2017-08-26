@@ -95,25 +95,15 @@ public interface Serializer<T> {
                     fieldValue = null;
                 } else {
                     Class asClass = fieldValue != null ? fieldValue.getClass() : field.getType();
-                    if (field.getSerializerClass() != null) {
-                        fieldValue = field.getSerializer(serializerSet).deserialize(serializedFieldData, asClass, serializerSet);
+                    if (Collection.class.isAssignableFrom(field.getType()) && serializedFieldData instanceof Collection) {
+                        fieldValue = DefaultSerializer.deserializeCollection(field, (Collection<?>) serializedFieldData, asClass, serializerSet);
+                    } else if (Map.class.isAssignableFrom(field.getType()) && serializedFieldData instanceof Map) {
+                        fieldValue = DefaultSerializer.deserializeMap(field, (Map<?, ?>) serializedFieldData, asClass, serializerSet);
+                    } else if (fieldValue != null && serializedFieldData instanceof Map) {
+                        fieldValue = DefaultSerializer.deserializeFieldAs(field, serializedFieldData, fieldValue.getClass(), serializerSet);
                     } else {
-                        if (Collection.class.isAssignableFrom(field.getType())
-                            && serializedFieldData instanceof Collection) {
-                            fieldValue = DefaultSerializer
-                                .deserializeCollection(field, (Collection<?>) serializedFieldData, asClass,
-                                                       serializerSet);
-                        } else if (Map.class.isAssignableFrom(field.getType()) && serializedFieldData instanceof Map) {
-                            fieldValue = DefaultSerializer
-                                .deserializeMap(field, (Map<?, ?>) serializedFieldData, asClass, serializerSet);
-                        } else if (fieldValue != null && serializedFieldData instanceof Map) {
-                            fieldValue = DefaultSerializer
-                                .deserializeFieldAs(field, serializedFieldData, fieldValue.getClass(), serializerSet);
-                        } else {
-                            fieldValue = DefaultSerializer
-                                .deserializeFieldAs(field, serializedFieldData, field.getType(), serializerSet);
-                        }
-                    }    
+                        fieldValue = DefaultSerializer.deserializeFieldAs(field, serializedFieldData, field.getType(), serializerSet);
+                    }
                 }
                 try {
                     field.forceSet(target, fieldValue);
