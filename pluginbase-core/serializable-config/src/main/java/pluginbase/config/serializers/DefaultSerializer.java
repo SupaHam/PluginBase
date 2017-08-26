@@ -109,7 +109,13 @@ class DefaultSerializer implements Serializer<Object> {
             if (collectionType != null && !collectionType.equals(Object.class)) {
                 collection.add(SerializableConfig.deserializeAs(object, field.getCollectionType(), serializerSet));
             } else {
-                collection.add(SerializableConfig.deserialize(object, serializerSet));
+                Object o;
+                if (field.getSerializerClass() != null) {
+                    o = serializerSet.getSerializerInstance(field.getSerializerClass()).deserialize(object, Object.class, serializerSet);
+                } else {
+                    o = SerializableConfig.deserialize(object, serializerSet);
+                }
+                collection.add(o);
             }
         }
         return collection;
